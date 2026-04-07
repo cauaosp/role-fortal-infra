@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:cauaosp/role_fortal.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:cauaosp/roles_fortal_frontend.git
