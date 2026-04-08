@@ -1,10 +1,11 @@
 version: "3.9"
 
 services:
-  web:
-    build: ./backend
+  backend:
+    # build: ./backend
+    build: ../role_fortal/
     image: role_fortal_backend:dev
-    container_name: artigos_opovo_web
+    container_name: artigos_opovo_backend
     command: ["python", "site.py"]
     ports:
       - "5001:5001"
@@ -13,7 +14,8 @@ services:
     restart: always
 
   fetcher:
-    build: ./backend
+    # build: ./backend
+    build: ../role_fortal/
     image: role_fortal_backend:dev
     container_name: artigos_opovo_fetcher
     command: ["python", "fetch_opovo.py"]
@@ -21,13 +23,14 @@ services:
       - data:/app/data
 
   frontend:
-    build: ./frontend/roles-fortal
+    # build: ./frontend/roles-fortal
+    build: ../roles_fortal_frontend/roles-fortal
     image: role_fortal_frontend:dev
     container_name: artigos_opovo_frontend
     ports:
       - "3000:80"
     depends_on:
-      - web
+      - backend
 
 volumes:
   data:
