@@ -31,6 +31,15 @@ Rode o comando: *minikube service frontend* para visualizar o Frontend do projet
 Pode verificar os pods rodando e outras informações com *kubectl get all*
 
 ---
+
+### Futuramente 💻
+- Fazer deploy num Desktop em Nuvem como Github Desktop
+- Integrar com banco de dados em nuvem como firebase
+- Adicionar mais fontes de notícias
+- Ajustar interface
+
+---
+
 ### Conteúdo centralizado 📰
 #### Atual:
 - **Diário do Nordeste**: É o jornal com a **maior tiragem** no Estado do Ceará, com forte cobertura em Fortaleza e região.
