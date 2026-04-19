@@ -1,6 +1,8 @@
 # Backend do Rolê Fortal 🌊
 ### Aplicativo idealizado para centralizar o que está ocorrendo em fortaleza.
 
+---
+
 ### Estrutura de contêineres 🐋
 3 Contêineres:
 - **Backend-Fetcher**: faz a busca por conteúdo em loop a cada 5min e guarda em JSON num arquivo para o backend-web expôr
@@ -13,7 +15,9 @@
 - pvc.yaml: solicita um armazenamento para realizar os serviços do backend.
 - pv.yaml: cria o armazenamento compatível com pvc
 - frontend.yaml: POD do FrontEnd.
+
 ---
+
 ### 📦 Como rodar
 - Precisa do kubectl baixado e o minikube rodando
 ```
