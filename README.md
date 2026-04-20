@@ -1,25 +1,25 @@
-# Backend do Rolê Fortal 🌊
+# Infraestrutura do Rolê Fortal 🌊 
 ### Aplicativo idealizado para centralizar o que está ocorrendo em fortaleza.
 
 ---
 
-### Estrutura de contêineres 🐋
+### 🐋 Estrutura de contêineres 
 3 Contêineres:
 - **Backend-Fetcher**: faz a busca por conteúdo em loop a cada 5min e guarda em JSON num arquivo para o backend-web expôr
 - **Backend-Web**: consome o banco JSON e compartilha para outros contêineres via web 
 - **Frontend**: consome os dados do backend via web e centraliza o conteúdo para o usuário
 
-### Deployment no kubernetes ☸️
-- backend-fetcher.yaml: organiza o POD do fetcher e usa o PVC para persistência de dados. OBS: Devo transformá-lo em CronJob depois.
-- backend-web.yaml: organiza o POD do web e consome os dados persistidos no PVC.
-- pvc.yaml: solicita um armazenamento para realizar os serviços do backend.
-- pv.yaml: cria o armazenamento compatível com pvc
-- frontend.yaml: POD do FrontEnd.
+### ☸️ Deployment no kubernetes
+1) **backend-fetcher.yaml**: organiza o POD do fetcher e usa o PVC para persistência de dados. OBS: Devo transformá-lo em CronJob depois.
+2) **backend-web.yaml**: organiza o POD do web e consome os dados persistidos no PVC.
+3) **pvc.yaml**: solicita um armazenamento para realizar os serviços do backend.
+4) **pv.yaml**: cria o armazenamento compatível com pvc
+5) **frontend.yaml**: POD do FrontEnd.
 
 ---
 
 ### 📦 Como rodar
-- Precisa do kubectl baixado e o minikube rodando
+#### Precisa do kubectl baixado e o minikube rodando
 ```
 1 - minikube start
 2 - eval $(minikube docker-env)
@@ -28,11 +28,11 @@
 ```
 Rode o comando: *minikube service frontend* para visualizar o Frontend do projeto.
 
-Pode verificar os pods rodando e outras informações com *kubectl get all*
+Verificar os pods rodando e outras informações: *kubectl get all*
 
 ---
 
-### Futuramente 💻
+### 💻 Futuramente
 - Fazer deploy num Desktop em Nuvem como Github Desktop
 - Integrar com banco de dados em nuvem como firebase
 - Adicionar mais fontes de notícias
@@ -40,7 +40,7 @@ Pode verificar os pods rodando e outras informações com *kubectl get all*
 
 ---
 
-### Conteúdo centralizado 📰
+### 📰 Conteúdo centralizado
 #### Atual:
 - **O Povo**: É o **segundo maior** em circulação no estado e o mais antigo em funcionamento em Fortaleza, fundado em 1928.
 
