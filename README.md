@@ -42,10 +42,10 @@ Pode verificar os pods rodando e outras informações com *kubectl get all*
 
 ### Conteúdo centralizado 📰
 #### Atual:
-- **Diário do Nordeste**: É o jornal com a **maior tiragem** no Estado do Ceará, com forte cobertura em Fortaleza e região.
+- **O Povo**: É o **segundo maior** em circulação no estado e o mais antigo em funcionamento em Fortaleza, fundado em 1928.
 
 #### Vai ser adicionado:
-- **O Povo**: É o **segundo maior** em circulação no estado e o mais antigo em funcionamento em Fortaleza, fundado em 1928.
+- **Diário do Nordeste**: É o jornal com a **maior tiragem** no Estado do Ceará, com forte cobertura em Fortaleza e região.
 - **O Estado**: Tradicional veículo com presença online e impressa, cobrindo política, economia e geral.
 - **G1 Ceará**: Portal de notícias vinculado à Rede Globo, com ampla cobertura estadual e capital.
 - **GC+**: Portal do grupo R7, conhecido por suas seções de entretenimento, cultura e notícias policiais.
