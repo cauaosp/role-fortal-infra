@@ -19,7 +19,7 @@ Usei o projeto para treinar ETL, repositórios descentralizados e o uso de cont�
 
 🎨 Frontend: `Vite` • `TypeScript` • `React` 
 
-☸️ Infra: `Docker` • `Kubernetes`
+☸️ Infra: `Docker` • `Kubernetes` • `Minikube`
 
 📡 Deploy: `Cloudfare Pages` • `Github Pages`
 
