@@ -4,7 +4,7 @@ Site para descobrir o que está acontecendo em Fortaleza centralizando as notíc
 
 <img width="400" alt="roles-fortal" src="https://github.com/user-attachments/assets/ff0710f8-2d89-49aa-b9bf-b74fa541250c" />
 
-🌐URL do projeto: https://roles-fortal-frontend.cauaosp20.workers.dev/
+🌐 url pública: https://roles-fortal-frontend.cauaosp20.workers.dev/
 
 ## 🏗️ Arquitetura
 
