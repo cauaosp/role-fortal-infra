@@ -29,3 +29,5 @@ Usei o projeto para treinar ETL, repositórios descentralizados e o uso de cont�
 -  Ordenação das notícias
 -  Armazenar e organizar os conteúdos da semana
 -  pesquisa em linguagem natural
+
+###### ☸️ Desenvolvido por [Cauã Paiva](https://github.com/cauaosp)
