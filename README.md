@@ -13,7 +13,7 @@ Site para descobrir o que está acontecendo em Fortaleza centralizando as notíc
 - Front: https://github.com/cauaosp/roles_fortal_frontend
 - Back: https://github.com/cauaosp/roles_fortal_backend
 
-## 🏗️ Arquitetura
+## 🏗️ Stacks
 
 💻 Backend: `Python` • `Flask`
 
